@@ -8,7 +8,7 @@
 <body>
     <?php
 
-    //This uses file_get_contents as it's a local file on the server, I would probably use CURL if pulling from a remote server.
+    //This uses file_get_contents as it's a local file on the server, I would probably use CURL if pulling from a remote server to prevent a MITM attack
     $path = 'https://dvsph.net/api/TalkGroups.json';
     $jsonString = file_get_contents($path);
     $prestring = json_decode($jsonString, true);
