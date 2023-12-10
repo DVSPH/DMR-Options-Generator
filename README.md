@@ -8,7 +8,7 @@ The DVSPH DMR network doesn't use reflectors so the reflector part of the string
 More than 5 time slot options can be easily added by replicating the code and changing the function string.  Up to 9 (per time slot) are supported on MMDVM.
 
 
-## JSON Endpoint Example
+## JSON Structure Example
 ```
 "TalkGroups": [
 {
